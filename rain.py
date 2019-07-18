@@ -112,8 +112,8 @@ def getnewclassname(t):
             name = name.replace(k,endnames[k])
             good = True
             break
-    if not good:
-        name = name + 'Class'
+    # if not good:
+    #    name = name + 'Class'
     name = newPrenames + name
     name = appendnosame(name)
     return name
